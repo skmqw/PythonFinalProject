@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(192, 182, 169);
+    
+}
+h1{
+    color: black;
+}
+h2{
+    color: rgb(97, 55, 177);
+}
+h4{
+    color: rgb(64, 122, 156);
+}
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: center;
+    border: 10px;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 270px 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 20px 30px;
+    background: #8ccf21;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #5e355c;
+    color: #6f4979;
+}
+
+.loader {
+    border: 10px solid #070707;
+    border-top: 10px solid #bd3f18; 
+    border-radius: 50%;
+    width: 50px;
+    height: 60px;
+}
